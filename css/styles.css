@@ -1,0 +1,33 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+
+.center-container {
+    /* Set the maximum width for the image container, adjust as needed */
+    max-width: 80%;
+}
+
+img {
+    width: 200px;
+    height: auto;
+
+    /* This will center the image horizontally */
+    display: block;
+    margin: 0 auto;
+
+    /* This will center the image vertically */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* Add any other styling you need for the image */
+    /* For example, you can set a maximum width for the image itself */
+    max-width: 100%;
+}
